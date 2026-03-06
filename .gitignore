@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.venv/
+venv/
+env/
+
+# Flask / SQLite
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Redis
+dump.rdb
+
+# Environment
+.env
+.env.local
+
+# Node / Vue
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs
+*.log
+logs/
